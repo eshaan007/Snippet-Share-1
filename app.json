@@ -11,6 +11,14 @@
         "generator": "secret"
       }
     }, 
+    "buildpacks": [
+      {
+        "url": "https://github.com/PragatiVerma18/Snippet-Share/tree/master/"
+      },
+      {
+        "url": "heroku/python"
+      }
+    ],
     "scripts":
       {
         "postdeploy":"./postdeploy.sh"
